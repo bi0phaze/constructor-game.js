@@ -103,70 +103,52 @@ var unknown = new Pokemon({
 $('.attack2')
     .on('click', 'this.attack')
     /////////////////// on click pick pokemon //////////////////////////////
-$('body')
-    .on('click', '.lugia-b', function() {
-        $('.player1')
-            .html('<img src = "lugia.gif">');
+$('body').on('click', '.lugia-b', function() {
+$('.player1').html('<img src = "lugia.gif">');
     });
-$('body')
-    .on('click', '.aerodactyle-b', function() {
-        $('.player1')
-            .html('<img src = "aerodactyle-b.gif">');
+$('body').on('click', '.aerodactyle-b', function() {
+$('.player1').html('<img src = "aerodactyle-b.gif">');
     });
-$('body')
-    .on('click', '.charzard-b', function() {
-        $('.player1')
-            .html('<img src = "charzard-b.gif">');
+$('body').on('click', '.charzard-b', function() {
+$('.player1').html('<img src = "charzard-b.gif">');
     });
-$('body')
-    .on('click', '.giratina-b', function() {
-        $('.player1')
-            .html('<img src = "giratina-b.gif">');
+$('body').on('click', '.giratina-b', function() {
+$('.player1').html('<img src = "giratina-b.gif">');
     });
-$('body')
-    .on('click', '.megamewtwo-b', function() {
-        $('.player1')
-            .html('<img src = "megamewtwo-b.gif">');
+$('body').on('click', '.megamewtwo-b', function() {
+$('.player1').html('<img src = "megamewtwo-b.gif">');
     });
-$('body')
-    .on('click', '.mew22-b', function() {
-        $('.player1')
-            .html('<img src = "mew22-b.gif">');
+$('body').on('click', '.mew22-b', function() {
+$('.player1').html('<img src = "mew22-b.gif">');
     });
 ///////////////////////  player2 left side ///////////////////////////////////////////////
-$('body')
-    .on('click', '.aerodactyle-f', function() {
-        $('.player2')
-            .html('<img src = "aerodactyle-f.gif">');
+$('body').on('click', '.aerodactyle-f', function() {
+$('.player2').html('<img src = "aerodactyle-f.gif">');
     });
-$('body')
-    .on('click', '.aggron-f', function() {
-        $('.player2')
-            .html('<img src = "aggron-f.gif">');
+$('body').on('click', '.aggron-f', function() {
+$('.player2').html('<img src = "aggron-f.gif">');
     });
-$('body')
-    .on('click', '.alakazam-f', function() {
-        $('.player2')
-            .html('<img src = "alakazam-f.gif">');
+$('body').on('click', '.alakazam-f', function() {
+$('.player2').html('<img src = "alakazam-f.gif">');
     });
-$('body')
-    .on('click', '.monkey-f', function() {
-        $('.player2')
-            .html('<img src = "monkey-f.gif">');
+$('body').on('click', '.monkey-f', function() {
+$('.player2').html('<img src = "monkey-f.gif">');
     });
-$('body')
-    .on('click', '.gyardos-f', function() {
-        $('.player2')
-            .html('<img src = "gyardos-f.gif">');
+$('body').on('click', '.gyardos-f', function() {
+$('.player2').html('<img src = "gyardos-f.gif">');
     });
-$('body')
-    .on('click', '.mew2-f', function() {
-        $('.player2')
-            .html('<img src = "mew2-f.gif">');
+$('body').on('click', '.mew2-f', function() {
+$('.player2').html('<img src = "mew2-f.gif">');
     });
+
 $(".attack1").click(function() {
-$(".player1").animate({'margin-left': '50%'
+$(".player1").animate({'margin-left': '50%', 'margin-top' : ' 3%', 'margin-top': '-3%',
             });
+
+setTimeout(function () {
+  $(".player1").animate({'margin-left': '20%'
+                          });
+}, 1500);
     });
    $(".attack2").click(function(){
      $(".player2").animate({'margin-right': '50%'});
