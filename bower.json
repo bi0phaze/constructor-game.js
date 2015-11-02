@@ -1,0 +1,22 @@
+{
+  "name": "bower install jquery underscore --save",
+  "main": "constructor-game.js",
+  "homepage": "https://github.com/bi0phaze/constructor-game.js",
+  "authors": [
+    "Juan Arbelaez <djxan2014@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}

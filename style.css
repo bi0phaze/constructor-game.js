@@ -1,5 +1,171 @@
 body {
-  background-image: url(http://pixelattack.net/wp/wp-content/uploads/Pok%C3%A9mon_Stadium_2.jpg);
-  background-size: cover;
+	background-image: url(http://pixelattack.net/wp/wp-content/uploads/Pok%C3%A9mon_Stadium_2.jpg);
+	background-size: cover;
+}
 
+div {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
+
+.player2 {
+	margin-left: 71%;
+	height: 100px;
+	width: 50px;
+	margin-top: 29%;
+}
+
+.player1 {
+	margin-top: 24%;
+	margin-left: 21%;
+	position: absolute;
+}
+
+.score {
+	margin-top: 12%;
+	position: absolute;
+	height: 35%;
+	width: 21%;
+	margin-left: 40.2%;
+}
+
+audio {
+	display: inline-block;
+	margin-left: 38.3%;
+	margin-top: 7%;
+}
+
+img {
+	display: inline-block;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.trainer1 {
+	display: inline-block;
+	display: inline-block;
+	position: absolute;
+	margin-top: 29%;
+	margin-left: 12%;
+}
+
+.trainer2 {
+	display: inline-block;
+	position: absolute;
+	margin-top: 29%;
+	margin-left: 84%;
+}
+
+.hide {
+	display: none;
+}
+
+.active {
+	display: inline-block;
+}
+
+button {
+	width: 5%;
+	height: 45px;
+	border-radius: 100%;
+}
+
+.lugia-b {
+	background-image: url(http://sprites.pokecheck.org/i/249.gif);
+	background-size: cover;
+}
+
+.charzard-b {
+	background-image: url(http://sprites.pokecheck.org/i/006.gif);
+	background-size: cover;
+}
+
+.alakazam-f {
+	background-image: url(http://sprites.pokecheck.org/i/065f.gif);
+	background-size: cover;
+}
+
+.aerodactyle-f {
+	background-image: url(http://sprites.pokecheck.org/i/142.gif);
+	background-size: cover;
+}
+
+.giratina-b {
+	background-image: url(http://sprites.pokecheck.org/i/487-origin.gif);
+	background-size: cover;
+}
+
+.megamewtwo-b {
+	background-image: url(megamewtwo-b.gif);
+	background-size: cover;
+}
+
+.mew22-b {
+	background-image: url(mew22-b.gif);
+	background-size: cover;
+}
+
+.aerodactyle-b {
+	background-image: url(aerodactyle-b.gif);
+	background-size: cover;
+}
+
+.aggron-f {
+	background-image: url(aggron-f.gif);
+	background-size: cover;
+}
+
+.monkey-f {
+	background-image: url(monkey-f.gif);
+	background-size: cover;
+}
+
+.gyardos-f {
+	background-image: url(gyardos-f.gif);
+	background-size: cover;
+}
+
+.mew2-f {
+	background-image: url(mew2-f.gif);
+	background-size: cover;
+}
+
+button:hover {
+	background-color: red;
+	transform: scale(2.1);
+	transition: all .2s ease-in-out;
+}
+
+.attack1 {
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 6%;
+	border-radius: 30%;
+	width: 140px;
+}
+
+.attack2 {
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 82%;
+	border-radius: 30%;
+	width: 140px;
+}
+
+section {
+	position: relative;
+	margin-top: -22%;
+	margin-left: 1%;
+}
+
+.sec2 {
+	width: 100%;
+	height: 88px;
+	border-radius: 100%;
+	position: relative;
+	margin-left: 66%;
+	margin-top: -3.6%;
 }
